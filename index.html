@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal homepage of Shishun — Self Introduction, Journal Club, Daily Life, and Related Links." />
+  <title>Shishun's Personal Homepage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ================================================
+     HEADER
+     ================================================ -->
+<header id="top">
+  <div class="container">
+    <!-- Replace src with your own photo URL or a local image path, e.g. src="photo.jpg" -->
+    <div class="avatar" style="
+      display:inline-flex;align-items:center;justify-content:center;
+      width:130px;height:130px;border-radius:50%;border:4px solid rgba(255,255,255,.8);
+      background:#d0e4f5;margin-bottom:16px;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24" fill="#8ab5d0">
+        <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
+      </svg>
+    </div>
+    <h1>Your Name</h1>
+    <p class="tagline">PhD Student · University Name · Department Name</p>
+    <div class="contact-bar">
+      <span>📧 <a href="mailto:your@email.com">your@email.com</a></span>
+      <span>🏛 Office: Building X, Room Y</span>
+      <span><a href="https://github.com/yourusername" target="_blank">GitHub</a></span>
+      <span><a href="https://scholar.google.com" target="_blank">Google Scholar</a></span>
+      <span><a href="cv.pdf" target="_blank">CV / Résumé</a></span>
+    </div>
+  </div>
+</header>
+
+<!-- ================================================
+     STICKY NAVIGATION
+     ================================================ -->
+<nav>
+  <ul>
+    <li><a href="#intro">Self Introduction</a></li>
+    <li><a href="#journal-club">Journal Club</a></li>
+    <li><a href="#daily-life">Daily Life</a></li>
+    <li><a href="#links">Related Links</a></li>
+  </ul>
+</nav>
+
+<!-- ================================================
+     SECTION 1 — SELF INTRODUCTION
+     ================================================ -->
+<section class="section" id="intro">
+  <div class="container">
+    <h2 class="section-title">Self Introduction</h2>
+    <p class="section-subtitle">A brief introduction about me and my research.</p>
+
+    <div class="intro-grid">
+
+      <!-- Left: Photo -->
+      <div>
+        <!--
+          Replace this placeholder block with an <img> tag once you have a photo, e.g.:
+          <img src="photo.jpg" alt="Your Name" class="intro-photo" />
+        -->
+        <div class="intro-photo-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
+          </svg>
+          Your Photo Here<br/>(replace with &lt;img&gt;)
+        </div>
+      </div>
+
+      <!-- Right: Text -->
+      <div class="intro-text">
+        <h3>About Me</h3>
+        <p>
+          Hi! I'm <strong>Your Name</strong>, a [Year] PhD student in [Department] at [University].
+          I am fortunate to be advised by <a href="#">Prof. Advisor Name</a>.
+          My research interests lie broadly in [Research Area 1] and [Research Area 2].
+        </p>
+        <p>
+          Before joining [University], I received my Bachelor's / Master's degree from [Previous University]
+          in [Year], majoring in [Major].
+        </p>
+        <p>
+          Feel free to reach me at <a href="mailto:your@email.com">your@email.com</a> if you want to chat
+          about research, collaborations, or anything else!
+        </p>
+
+        <!-- Basic info table -->
+        <table class="info-table">
+          <tbody>
+            <tr>
+              <td>Name</td>
+              <td>Your Name（中文名）</td>
+            </tr>
+            <tr>
+              <td>Position</td>
+              <td>PhD Student / Researcher / …</td>
+            </tr>
+            <tr>
+              <td>University</td>
+              <td>Your University, Your City, Country</td>
+            </tr>
+            <tr>
+              <td>Department</td>
+              <td>Your Department / Lab Name</td>
+            </tr>
+            <tr>
+              <td>Email</td>
+              <td><a href="mailto:your@email.com">your@email.com</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Research interests tags -->
+        <div class="tag-list">
+          <span class="tag">Machine Learning</span>
+          <span class="tag">Computational Biology</span>
+          <span class="tag">Computer Vision</span>
+          <span class="tag">Natural Language Processing</span>
+          <span class="tag">Your Interest</span>
+        </div>
+      </div>
+
+    </div><!-- /.intro-grid -->
+
+    <!-- News / Selected Publications (optional subsection) -->
+    <h3 style="margin-top:46px;color:#1a3a5c;font-size:1.15rem;">🗞 Recent News</h3>
+    <ul style="margin-top:12px;padding-left:20px;color:#444;font-size:0.93rem;">
+      <li><strong>[2024-XX]</strong> Our paper "[Paper Title]" was accepted to [Venue]. 🎉</li>
+      <li><strong>[2024-XX]</strong> I will be joining [Lab/Company] as a research intern this summer.</li>
+      <li><strong>[2023-XX]</strong> Started my PhD journey at [University].</li>
+      <!-- Add more news items here -->
+    </ul>
+
+  </div>
+</section>
+
+<!-- ================================================
+     SECTION 2 — JOURNAL CLUB
+     ================================================ -->
+<section class="section" id="journal-club">
+  <div class="container">
+    <h2 class="section-title">Journal Club</h2>
+    <p class="section-subtitle">
+      Papers I have read, presented, or find interesting. Updated regularly.
+    </p>
+
+    <!-- Subsection: Papers I Presented -->
+    <h3 style="font-size:1.1rem;color:#1a3a5c;margin-bottom:16px;">Papers I Presented</h3>
+    <ul class="paper-list">
+
+      <li>
+        <span class="paper-date">2024-03-15</span>
+        <div class="paper-title">Attention Is All You Need</div>
+        <div class="paper-authors">Vaswani et al.</div>
+        <div class="paper-venue">NeurIPS 2017</div>
+        <div class="paper-tags">
+          <span class="badge presenter">Presenter: Me</span>
+          <span class="badge">Deep Learning</span>
+          <span class="badge">NLP</span>
+        </div>
+      </li>
+
+      <li>
+        <span class="paper-date">2024-02-08</span>
+        <div class="paper-title">AlphaFold: A Solution to a 50-Year-Old Grand Challenge in Biology</div>
+        <div class="paper-authors">Jumper et al.</div>
+        <div class="paper-venue">Nature 2021</div>
+        <div class="paper-tags">
+          <span class="badge presenter">Presenter: Me</span>
+          <span class="badge">Computational Biology</span>
+          <span class="badge">Protein Structure</span>
+        </div>
+      </li>
+
+      <!-- Add more papers here -->
+    </ul>
+
+    <!-- Subsection: Papers I Read / Recommend -->
+    <h3 style="font-size:1.1rem;color:#1a3a5c;margin-top:36px;margin-bottom:16px;">Papers I Read &amp; Recommend</h3>
+    <ul class="paper-list">
+
+      <li>
+        <span class="paper-date">2024-04</span>
+        <div class="paper-title">Language Models are Few-Shot Learners (GPT-3)</div>
+        <div class="paper-authors">Brown et al.</div>
+        <div class="paper-venue">NeurIPS 2020</div>
+        <div class="paper-tags">
+          <span class="badge">LLM</span>
+          <span class="badge">In-Context Learning</span>
+        </div>
+      </li>
+
+      <li>
+        <span class="paper-date">2024-03</span>
+        <div class="paper-title">Your Interesting Paper Title Here</div>
+        <div class="paper-authors">Author A, Author B, Author C</div>
+        <div class="paper-venue">Conference / Journal, Year</div>
+        <div class="paper-tags">
+          <span class="badge">Topic 1</span>
+          <span class="badge">Topic 2</span>
+        </div>
+      </li>
+
+      <!-- Add more papers here -->
+    </ul>
+
+    <!-- Upcoming / Reading List -->
+    <h3 style="font-size:1.1rem;color:#1a3a5c;margin-top:36px;margin-bottom:12px;">📚 Reading List</h3>
+    <ul style="padding-left:20px;color:#444;font-size:0.93rem;">
+      <li>Paper / Book Title 1 — <em>Author(s)</em></li>
+      <li>Paper / Book Title 2 — <em>Author(s)</em></li>
+      <li>Paper / Book Title 3 — <em>Author(s)</em></li>
+      <!-- Add more items here -->
+    </ul>
+
+  </div>
+</section>
+
+<!-- ================================================
+     SECTION 3 — DAILY LIFE
+     ================================================ -->
+<section class="section" id="daily-life">
+  <div class="container">
+    <h2 class="section-title">Daily Life</h2>
+    <p class="section-subtitle">
+      Hobbies, travels, food, and everything that makes life more colorful. 🌈
+    </p>
+
+    <div class="life-grid">
+
+      <!-- Card 1 -->
+      <div class="life-card">
+        <div class="life-card-img-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+          </svg>
+          Your Photo Here
+        </div>
+        <div class="life-card-body">
+          <h4>Hiking Adventure</h4>
+          <p>Describe a hiking trip, place you visited, or an experience you had.</p>
+          <span class="card-date">📅 Month Year</span>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="life-card">
+        <div class="life-card-img-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+          </svg>
+          Your Photo Here
+        </div>
+        <div class="life-card-body">
+          <h4>Cooking &amp; Food</h4>
+          <p>Share a favourite recipe, restaurant visit, or culinary experiment.</p>
+          <span class="card-date">📅 Month Year</span>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="life-card">
+        <div class="life-card-img-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+          </svg>
+          Your Photo Here
+        </div>
+        <div class="life-card-body">
+          <h4>Reading &amp; Books</h4>
+          <p>Books you are currently reading or recommend to others.</p>
+          <span class="card-date">📅 Month Year</span>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="life-card">
+        <div class="life-card-img-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+          </svg>
+          Your Photo Here
+        </div>
+        <div class="life-card-body">
+          <h4>Travel / City Name</h4>
+          <p>Experiences from travelling to a new city or country.</p>
+          <span class="card-date">📅 Month Year</span>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="life-card">
+        <div class="life-card-img-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+          </svg>
+          Your Photo Here
+        </div>
+        <div class="life-card-body">
+          <h4>Sports &amp; Fitness</h4>
+          <p>Running, cycling, swimming, or any sport you enjoy.</p>
+          <span class="card-date">📅 Month Year</span>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="life-card">
+        <div class="life-card-img-placeholder">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/>
+          </svg>
+          Your Photo Here
+        </div>
+        <div class="life-card-body">
+          <h4>Music / Art / Hobby</h4>
+          <p>Something creative you do in your spare time.</p>
+          <span class="card-date">📅 Month Year</span>
+        </div>
+      </div>
+
+      <!-- Add more cards as needed -->
+    </div><!-- /.life-grid -->
+
+  </div>
+</section>
+
+<!-- ================================================
+     SECTION 4 — RELATED LINKS
+     ================================================ -->
+<section class="section" id="links">
+  <div class="container">
+    <h2 class="section-title">Related Links</h2>
+    <p class="section-subtitle">Useful resources, tools, and communities I use or recommend.</p>
+
+    <div class="links-grid">
+
+      <!-- Category: My Profiles -->
+      <div class="link-category">
+        <h3>My Profiles</h3>
+        <ul>
+          <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
+          <li><a href="https://scholar.google.com/citations?user=XXXX" target="_blank">Google Scholar</a></li>
+          <li><a href="https://orcid.org/0000-0000-0000-0000" target="_blank">ORCID</a></li>
+          <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+          <li><a href="https://twitter.com/yourhandle" target="_blank">Twitter / X</a></li>
+          <li><a href="cv.pdf" target="_blank">My CV (PDF)</a></li>
+        </ul>
+      </div>
+
+      <!-- Category: Research Resources -->
+      <div class="link-category">
+        <h3>Research Resources</h3>
+        <ul>
+          <li><a href="https://arxiv.org" target="_blank">arXiv</a></li>
+          <li><a href="https://paperswithcode.com" target="_blank">Papers With Code</a></li>
+          <li><a href="https://semantic-scholar.org" target="_blank">Semantic Scholar</a></li>
+          <li><a href="https://pubmed.ncbi.nlm.nih.gov" target="_blank">PubMed</a></li>
+          <li><a href="https://www.connectedpapers.com" target="_blank">Connected Papers</a></li>
+          <li><a href="https://huggingface.co" target="_blank">Hugging Face</a></li>
+        </ul>
+      </div>
+
+      <!-- Category: Tools & Software -->
+      <div class="link-category">
+        <h3>Tools &amp; Software</h3>
+        <ul>
+          <li><a href="https://www.overleaf.com" target="_blank">Overleaf (LaTeX)</a></li>
+          <li><a href="https://colab.research.google.com" target="_blank">Google Colab</a></li>
+          <li><a href="https://www.notion.so" target="_blank">Notion</a></li>
+          <li><a href="https://www.zotero.org" target="_blank">Zotero</a></li>
+          <li><a href="https://code.visualstudio.com" target="_blank">VS Code</a></li>
+          <li><a href="https://www.anaconda.com" target="_blank">Anaconda</a></li>
+        </ul>
+      </div>
+
+      <!-- Category: Communities & Conferences -->
+      <div class="link-category">
+        <h3>Conferences &amp; Communities</h3>
+        <ul>
+          <li><a href="https://neurips.cc" target="_blank">NeurIPS</a></li>
+          <li><a href="https://icml.cc" target="_blank">ICML</a></li>
+          <li><a href="https://iclr.cc" target="_blank">ICLR</a></li>
+          <li><a href="https://www.nature.com" target="_blank">Nature</a></li>
+          <li><a href="https://www.science.org" target="_blank">Science</a></li>
+          <li><a href="https://openreview.net" target="_blank">OpenReview</a></li>
+        </ul>
+      </div>
+
+      <!-- Category: Learning Resources -->
+      <div class="link-category">
+        <h3>Learning Resources</h3>
+        <ul>
+          <li><a href="https://cs231n.stanford.edu" target="_blank">CS231n (Stanford)</a></li>
+          <li><a href="https://www.deeplearning.ai" target="_blank">DeepLearning.AI</a></li>
+          <li><a href="https://d2l.ai" target="_blank">Dive into Deep Learning</a></li>
+          <li><a href="https://www.fast.ai" target="_blank">fast.ai</a></li>
+          <li><a href="https://www.coursera.org" target="_blank">Coursera</a></li>
+          <li><a href="https://missing.csail.mit.edu" target="_blank">MIT Missing Semester</a></li>
+        </ul>
+      </div>
+
+      <!-- Category: Miscellaneous / Personal Favourites -->
+      <div class="link-category">
+        <h3>Personal Favourites</h3>
+        <ul>
+          <li><a href="#" target="_blank">Favourite Blog / Newsletter</a></li>
+          <li><a href="#" target="_blank">Favourite Podcast</a></li>
+          <li><a href="#" target="_blank">Favourite Online Tool</a></li>
+          <li><a href="#" target="_blank">Another Resource</a></li>
+          <!-- Add more of your own -->
+        </ul>
+      </div>
+
+    </div><!-- /.links-grid -->
+
+  </div>
+</section>
+
+<!-- ================================================
+     FOOTER
+     ================================================ -->
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Your Name · All rights reserved</p>
+    <p style="margin-top:6px;">
+      Powered by <a href="https://pages.github.com" target="_blank">GitHub Pages</a>
+    </p>
+    <a href="#top" class="back-to-top">↑ Back to top</a>
+  </div>
+</footer>
+
+<!-- ================================================
+     SCRIPTS
+     ================================================ -->
+<script>
+  // Auto-update copyright year
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Highlight active nav link on scroll
+  const sections = document.querySelectorAll('.section');
+  const navLinks = document.querySelectorAll('nav ul li a');
+
+  function setActiveLink() {
+    let current = '';
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 80;
+      if (window.scrollY >= sectionTop) {
+        current = section.getAttribute('id');
+      }
+    });
+    navLinks.forEach(link => {
+      link.classList.remove('active');
+      if (link.getAttribute('href') === '#' + current) {
+        link.classList.add('active');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', setActiveLink);
+  setActiveLink();
+</script>
+
+</body>
+</html>
